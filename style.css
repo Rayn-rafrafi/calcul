@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+    height: 94.9vh;
+    background-color: rgb(226, 156, 103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcul{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.calcul form input{
+
+    border: 0px;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow:-8px -8px 15px rgba(255, 255, 255,0.1),5px 5px 15px rgba(0, 0, 0,0.2) ;
+    background: transparent;
+    font-size: 20px;
+    margin :10px;
+}
+form .aze {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0; 
+}
+form .aze input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1),5px 5px 15px rgba(0, 0, 0,0.2);
+}
+form input.equal {
+    width: 145px;
+}
+h1{
+    text-align: center;
+    background-color: rgb(226, 156, 103);
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+}
