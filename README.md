@@ -1,2 +1,2 @@
 # calcul
-=> calcultor with:(html/css/javascript)
+=> calculator with:(html/css/javascript)
